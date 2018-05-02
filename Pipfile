@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"nflgame3" = "*"
+slackclient = "*"
+django = "*"
+djangorestframework = "*"
+slackeventsapi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
