@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from events.views import Events #import the Events View
+from events.getgames import Getgames
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('events/', Events.as_view()),
 ]
+
+Getgames()
