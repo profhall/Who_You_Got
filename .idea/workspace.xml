@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7911979e-cc43-4539-9f31-99dc656ed55f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nfl_game_picker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/events/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/events/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/events/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/events/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/events/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/events/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/events/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/who_you_got/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/who_you_got/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/who_you_got/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/who_you_got/who_you_got/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/who_you_got/events/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/who_you_got/events/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,7 +30,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/who_you_got/who_you_got/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
+            <state relative-caret-position="292">
               <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
@@ -58,8 +39,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/who_you_got/events/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="164">
+              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -77,6 +58,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getl</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,12 +114,6 @@
               <item name="who_you_got" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nfl_game_picker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nfl_game_picker" type="462c0819:PsiDirectoryNode" />
-              <item name="who_you_got" type="462c0819:PsiDirectoryNode" />
-              <item name="who_you_got" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,7 +161,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5090909" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.38545454" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
@@ -224,15 +204,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/who_you_got/who_you_got/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
+        <state relative-caret-position="292">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/who_you_got/events/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="164">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

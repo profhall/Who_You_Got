@@ -4,15 +4,16 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django.conf import settings
+import nflgame
 import json
 
 SLACK_VERIFICATION_TOKEN = getattr(settings, 'SLACK_VERIFICATION_TOKEN', None)
 UserPicks = {}
-UserPicks["userID"] = {}
-pick = UserPicks["userID"]
+pick = ""
+
 class Events(APIView):
     def post(self, request, *args, **kwargs):
-
+        global UserPicks, pick
         #print(request.data)
         slack_message = request.data
 
@@ -22,8 +23,8 @@ class Events(APIView):
             if "payload" in slack_message:
                 slack_message = json.loads(slack_message["payload"])
 
-        print(type(slack_message))
-        print(json.dumps(slack_message, sort_keys=True, indent=4))
+        #print(type(slack_message))
+        #print(json.dumps(slack_message, sort_keys=True, indent=4))
 
         ## if the token in the message doesn't match out token then forbidden
         if slack_message.get('token') != SLACK_VERIFICATION_TOKEN :
@@ -34,14 +35,22 @@ class Events(APIView):
             return Response(data=slack_message,  #
                             status=status.HTTP_200_OK)  #
 
-        #if the event is an interactive message response
+        #needed to check if user has already made a decision,
+        #this is to make sure that every even doesnt create an empty dictionary
+        if "user" in slack_message :
+            user = slack_message["user"]["name"]
+            if user not in UserPicks:
+                UserPicks[user] = {}
+                pick = UserPicks[user]
+
+        #if the event is an interactive message
         if slack_message.get('type') == 'interactive_message':
             choice = slack_message.get('actions')
-            attachment = slack_message.get('original_message').get('attachments')
-            callback = attachment[0]["callback_id"]
-
-            pick[callback] = choice[0]["value"]
+            weekNgame = slack_message["callback_id"]
+            pick[weekNgame] = choice[0]["value"]
             print(UserPicks)
+            print(pick)
 
 
         return Response(status=status.HTTP_200_OK)
+
