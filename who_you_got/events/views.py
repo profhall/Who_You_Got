@@ -54,3 +54,7 @@ class Events(APIView):
 
         return Response(status=status.HTTP_200_OK)
 
+    def writeToFile(self, data):
+        # save to file:
+        with open('/picks/team_picks.json', 'w') as f:
+            json.dump(data, f)

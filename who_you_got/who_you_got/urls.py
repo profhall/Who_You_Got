@@ -16,11 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from events.views import Events #import the Events View
-from events.getgames import Getgames
+from events import getgames
+import schedule
+import time
+import datetime
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('events/', Events.as_view()),
 ]
 
-Getgames()
+
+getgames.games()
