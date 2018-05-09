@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7911979e-cc43-4539-9f31-99dc656ed55f" name="Default" comment="" />
+    <list default="true" id="7911979e-cc43-4539-9f31-99dc656ed55f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/who_you_got/who_you_got/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/who_you_got/who_you_got/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +22,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/who_you_got/who_you_got/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#311#340#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/who_you_got/events/getgames.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-end-line="11" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#503#1511#0" />
@@ -59,17 +64,17 @@
       <file leaf-file-name="tokens.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/who_you_got/who_you_got/tokens.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="30">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -106,10 +111,10 @@
         <option value="$PROJECT_DIR$/who_you_got/events/models.py" />
         <option value="$PROJECT_DIR$/who_you_got/events/views.py" />
         <option value="$PROJECT_DIR$/who_you_got/who_you_got/urls.py" />
-        <option value="$PROJECT_DIR$/who_you_got/who_you_got/settings.py" />
         <option value="$PROJECT_DIR$/who_you_got/events/getgames.py" />
-        <option value="$PROJECT_DIR$/who_you_got/who_you_got/tokens.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/who_you_got/who_you_got/tokens.py" />
+        <option value="$PROJECT_DIR$/who_you_got/who_you_got/settings.py" />
       </list>
     </option>
   </component>
@@ -199,6 +204,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -279,17 +285,17 @@
     <entry file="file://$PROJECT_DIR$/who_you_got/events/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/who_you_got/who_you_got/settings.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/who_you_got/events/getgames.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-end-line="11" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#503#1511#0" />
@@ -300,15 +306,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/who_you_got/who_you_got/tokens.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/who_you_got/who_you_got/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#311#340#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
