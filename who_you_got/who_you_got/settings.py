@@ -9,9 +9,9 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-
+from who_you_got import tokens
 import os
-
+print(tokens)
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -27,12 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["d0d1bba4.ngrok.io"]
 
-# SLACK API Configurations
-# ----------------------------
-SLACK_CLIENT_ID = '320552230417.356806905538'
-SLACK_CLIENT_SECRET = '54fa04b953b5cfd379bac0c8c97b9cbe'
-SLACK_VERIFICATION_TOKEN = 'iFpbXALaJiAQgIVNjoUWyM8U'
-SLACK_BOT_USER_TOKEN = 'xoxb-357856096503-J3CSwCsSJxNhoyOWhMgjTkq8'
 
 # Application definition
 

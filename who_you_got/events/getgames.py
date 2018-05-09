@@ -3,17 +3,18 @@ from slackclient import SlackClient
 import schedule
 import time
 from datetime import datetime
+from who_you_got import tokens
 from django.conf import settings
 import nflgame
 import json
 
-SLACK_BOT_USER_TOKEN = getattr(settings, 'SLACK_BOT_USER_TOKEN', None)
+SLACK_BOT_USER_TOKEN = getattr(tokens, 'SLACK_BOT_USER_TOKEN', None)
 print(SLACK_BOT_USER_TOKEN)
 sc = SlackClient(SLACK_BOT_USER_TOKEN)
 channels = sc.api_call("groups.list", exclude_archived=1)
-print(json.dumps(channels, sort_keys=True, indent=4))
+#print(json.dumps(channels, sort_keys=True, indent=4))
 
-stat = True
+status = True
 
 wk_num = 9
 game_num = 1
@@ -103,7 +104,7 @@ def games():
 
 schedule.every().sunday.at("9:00").do(games)
 schedule.every().day.at("6:37").do(games)
-while stat:
+while status:
     present = datetime.now()
     #update this to read the real day number of the game
     stop = datetime(2018, 5,3, 7,10,0)
@@ -113,6 +114,6 @@ while stat:
         time.sleep(1)
     else:
         print("times up")
-        stat = False
+        status = False
         #make this send slack message and update interactive message
 
